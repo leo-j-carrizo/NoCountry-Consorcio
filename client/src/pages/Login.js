@@ -1,14 +1,16 @@
 import React from 'react';
-
+import Footer from '../components/Footer';
+import LoginForm from '../components/LoginForm';
+import NavBar from '../components/NavBar';
 
 
 export default function Home() {
   
 return (
-    <div style={{width:'100%', minHeight:'100vh'}}>
-      
-        LOGIN
-
-    </div>
+  <>
+  <NavBar /> 
+  <LoginForm />
+  <Footer />
+</>
   );
 }
