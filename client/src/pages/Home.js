@@ -1,7 +1,7 @@
 import React from 'react';
-import Footer from '../components/Footer';
-import Landing from '../components/Landing';
-import NavBar from '../components/NavBar';
+import Footer from '../components/footer/Footer';
+import Landing from '../components/landing/Landing';
+import NavBar from '../components/navbar/NavBar';
 
 
 export default function Home() {

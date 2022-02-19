@@ -5,12 +5,10 @@ import "./style.css";
 
 
 
-function Footer() { 
+function Footer() {
     return (
-      <Fragment>
-      
-        <div className="container">
-           
+        <Fragment>
+            <div className="container">
                 <div className="colum">
                     <h5>Get started</h5>
                     <ul>
@@ -42,13 +40,11 @@ function Footer() {
                     </ul>
                 </div>
             </div>
-        
-        <div className="footer-copyright">
-            <p>C3-G61 © 2022</p>
-        </div>
-
-      </Fragment>
+            <div className="footer-copyright">
+                <p>C3-G61 © 2022</p>
+            </div>
+        </Fragment>
     );
-  }
-  
-  export default Footer;
+}
+
+export default Footer;

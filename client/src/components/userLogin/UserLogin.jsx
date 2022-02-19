@@ -21,11 +21,9 @@ const LoginForm = () => {
       <h1 className='text-center text-primary'>Log in</h1>
       <p className='user__text text-center'> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est aspernatur molestias fuga!
                             Doloribus perferendis debitis sit hic magnam facilis exercitationem.</p>
-
       <div className='container'>
       <form onSubmit={handleSubmit(onSubmit)}>
-
-<div className='mb-3'>
+  <div className='mb-3'>
         <label htmlFor='email' className='form-label'>
           Usuario
         </label>
