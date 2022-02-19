@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/App.scss';
+import '../assets/styles/App.scss';
 import { BrowserRouter } from 'react-router-dom';
 import Router from './Router';
 

@@ -1,7 +1,7 @@
 import React from 'react';
-import Footer from '../components/Footer';
-import LoginForm from '../components/LoginForm';
-import NavBar from '../components/NavBar';
+import Footer from '../components/footer/Footer';
+import UserLogin from '../components/userLogin/UserLogin';
+import NavBar from '../components/navbar/NavBar';
 
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
 return (
   <>
   <NavBar /> 
-  <LoginForm />
+  <UserLogin />
   <Footer />
 </>
   );
