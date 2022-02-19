@@ -1,14 +1,16 @@
 import React from 'react';
-//import Landing from '../components/Landing';
+import Footer from '../components/Footer';
+import Landing from '../components/Landing';
+import NavBar from '../components/NavBar';
 
 
 export default function Home() {
   
 return (
-    <div style={{width:'100%', minHeight:'100vh'}}>
-      
-        HOME
-    
-    </div>
+  <>
+    <NavBar /> 
+    <Landing />
+    <Footer />
+  </>
   );
 }

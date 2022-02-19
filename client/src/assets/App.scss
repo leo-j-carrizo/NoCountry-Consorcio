@@ -20,11 +20,42 @@ $gradient-radial: radial-gradient(#2d485eff, #2e628cff, #0a5da1ff, #595d61ff, #e
 
 /* -------- */
 
+/* FUENTES */
+
+html{
+  font-family: Arial, Helvetica, sans-serif ;
+}
+
+/* ------- */
 body{
+  margin: 0;
   background-color: $alice-blue;
   color: $charcoal;
 }
 
 App h1{
   font-size: xx-large;
+}
+
+/* Landing */
+
+.landing{
+  background-color: $lapis-lazuli;
+  color: $alice-blue;
+  min-height: 680px;
+  position: relative;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+.btn{
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
 }
